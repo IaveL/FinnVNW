@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:#2CB3F3;    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 35vw;
+    top: 10vh;
+    align-items: center;
+}
+
+.hoodie {
+    border: 1px solid black;
+    border-radius: 15% 15% 0 0;
+    width: 50vw;
+    height: 60vh;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 35vh;
+    left: 23vw;   
+}
+
+.face{
+    background-color: #ffe1c9;
+    width: 38vw;
+    height: 51vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 6vh;
+    left: 5.5vw;
+}
+
+.eyes {
+    display: flex;    
+}
+
+#eye1 {
+    position: absolute;
+    border-radius: 80%;
+    width: 3vw;
+    height: 5vh;
+    background-color: black;
+    top: 15vh;
+    left: 10vw; 
+}
+
+#eye2 {
+    position: absolute;
+    border-radius: 80%;
+    width: 3vw;
+    height: 5vh;
+    background-color: black;
+    top: 15vh;
+    left: 26vw; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;    
+    position: absolute;
+    top: 35vh;
+    left: 10vw;
+    
+}
+
+.mouth {
+    height: 100vh;
+}
+
+input {
+    width: 18vw;
+    height: 5vh;
+
+}
+
+
+button {
+    position: absolute;
+    top: 100vh;
+    left: 40vw;
+    height: 70px;
+    width: 220px;
+    background-color: #55A603; 
+    color: #B2F272;
+ 
+
+}
+
+
+footer {
+    position: absolute;
+    top: 100vh;
+    left: 80vw;
+}
